@@ -43,7 +43,7 @@ function setMessage(value) {
 
 function validateInput(value) {
   if (value.length !== 4) {
-    setMessage("Guess must be exactly 4 characters long.");
+    setMessage("Guesses must be exactly 4 characters long.");
     return false;
   }
   return true;
